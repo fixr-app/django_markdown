@@ -11,7 +11,7 @@ dist
 docs/_*
 sitegen.egg-info
 todo.txt
-
+env/
 .coverage
 .tox/
 django_markdown.egg-info/

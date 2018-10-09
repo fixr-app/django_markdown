@@ -37,9 +37,9 @@ setup(
     long_description=_read('README.rst'),
     license=_license,
 
-    author="Kirill Klenov",
-    author_email="horneds@gmail.com",
-    url="https://github.com/klen/django_markdown",
+    author="Isaac Ramonet",
+    author_email="iabetsram@gmail.com",
+    url="https://github.com/isaac12x/django_markdown",
 
     keywords='html markdown django',
     classifiers=[
