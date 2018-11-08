@@ -42,6 +42,7 @@ def editor_js_initialization(selector, **extra_settings):
         **settings.MARKDOWN_EDITOR_SETTINGS)
     options.update(extra_settings)
     ctx = dict(
-        selector=selector, extra_settings=simplejson.dumps(options)),
-        autoescape=False)
+        selector=selector,
+        extra_settings=simplejson.dumps(options)
+    )
     return INIT_TEMPLATE.render(ctx)
